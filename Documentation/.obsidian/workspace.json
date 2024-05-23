@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "cff6de8067de5e47",
+    "type": "split",
+    "children": [
+      {
+        "id": "270d3bce67cbab1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0beb4c49af9e20a1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5aae0ca133da464a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8e2526afc2e4664",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc604dc21a774c86",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "08a798cd9ff2b3c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "965ed512d3a5aec2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5101a03248c259fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "66599cc19415bfbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b920dff3c66b214",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9f561ed7c07d745",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "70ec0c97de5337d6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fdf64ecfae5d6c92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "3191658a9b99af2a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "0beb4c49af9e20a1",
+  "lastOpenFiles": [
+    "Design Decisions/Tooling/Game Engine.md",
+    "Design Decisions/Theme/Game Perspective.md",
+    "Policy/Game Definition.md",
+    "Policy/Tags.md",
+    "Templates/Feature Template.md",
+    "Templates/Design Decision Template.md",
+    "Design Decisions/Theme",
+    "Design Decisions/Tooling",
+    "Design Decisions",
+    "Policy",
+    "Templater/IssueLink.md",
+    "Untitled.canvas",
+    "2024-05-23.md",
+    "Scripts/linkIssue.js",
+    "Scripts/insertGitHubLink.js",
+    "Scripts",
+    "Templater/Scripts/insertGitHubLink.js",
+    "Templater/Scripts/New folder",
+    "Templater/Scripts",
+    "Templater/Templates-scripts-insertGitHubLink.js.md",
+    "Home.md",
+    "Welcome.md",
+    "create a link.md"
+  ]
+}
