@@ -22,6 +22,9 @@ The quality of ingredients used in dishes affects the output and reputation of t
 #### Marketing
 The player needs to market themselves to the public
 
+#### Machines
+Players should be able to buy and upgrade their machines
+
 ## Players Emotions and Characteristics
 Frantic
 Calculated

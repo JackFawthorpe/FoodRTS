@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "270d3bce67cbab1b",
+        "id": "aeac27eba3bb4b7e",
         "type": "tabs",
         "children": [
           {
-            "id": "0beb4c49af9e20a1",
+            "id": "e99934217e8a7de6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Policy/Tags.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e5ce361b3f141b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Decisions/Tooling/Game Engine.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "5101a03248c259fe",
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Design Decisions/Tooling/Game Engine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Design Decisions/Tooling/Game Engine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Design Decisions/Tooling/Game Engine.md"
+              }
             }
           },
           {
@@ -134,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,24 +166,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0beb4c49af9e20a1",
+  "active": "2e5ce361b3f141b3",
   "lastOpenFiles": [
-    "Design Decisions/Tooling/Game Engine.md",
-    "Design Decisions/Theme/Game Perspective.md",
-    "Policy/Game Definition.md",
     "Policy/Tags.md",
     "Templates/Feature Template.md",
     "Templates/Design Decision Template.md",
+    "Design Decisions/Tooling/Game Engine.md",
+    "Design Decisions/Theme/Camera Perspective.md",
+    "Policy/Game Definition.md",
+    "Templater/IssueLink.md",
     "Design Decisions/Theme",
     "Design Decisions/Tooling",
     "Design Decisions",
     "Policy",
-    "Templater/IssueLink.md",
     "Untitled.canvas",
     "2024-05-23.md",
     "Scripts/linkIssue.js",
