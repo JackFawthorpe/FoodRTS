@@ -13,6 +13,8 @@ What is the best choice for perspective in the game?
 ---
 # Tags
 
+#Camera 
+
 ---
 # Options
 

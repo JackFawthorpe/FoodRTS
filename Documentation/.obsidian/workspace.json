@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Policy/Tags.md",
+                "file": "Design Decisions/Tooling/Game Engine.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Decisions/Tooling/Game Engine.md",
+                "file": "Design Decisions/Theme/Camera Perspective.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2e5ce361b3f141b3",
+  "active": "e99934217e8a7de6",
   "lastOpenFiles": [
-    "Policy/Tags.md",
-    "Templates/Feature Template.md",
-    "Templates/Design Decision Template.md",
-    "Design Decisions/Tooling/Game Engine.md",
     "Design Decisions/Theme/Camera Perspective.md",
+    "Design Decisions/Tooling/Game Engine.md",
+    "Templates/Design Decision Template.md",
+    "Templates/Feature Template.md",
+    "Policy/Tags.md",
     "Policy/Game Definition.md",
     "Templater/IssueLink.md",
     "Design Decisions/Theme",
