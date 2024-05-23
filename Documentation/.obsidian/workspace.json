@@ -4,29 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "aeac27eba3bb4b7e",
+        "id": "12c648a518882aa7",
         "type": "tabs",
         "children": [
           {
-            "id": "e99934217e8a7de6",
+            "id": "2b903b64fa7b970c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Decisions/Tooling/Game Engine.md",
+                "file": "Templates/Design Decision Template.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e5ce361b3f141b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Design Decisions/Theme/Camera Perspective.md",
-                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Decisions/Tooling/Game Engine.md",
+                "file": "Templates/Design Decision Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Decisions/Tooling/Game Engine.md",
+                "file": "Templates/Design Decision Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Decisions/Tooling/Game Engine.md"
+                "file": "Templates/Design Decision Template.md"
               }
             }
           },
@@ -161,24 +150,23 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "e99934217e8a7de6",
+  "active": "2b903b64fa7b970c",
   "lastOpenFiles": [
+    "Templater/IssueLink.md",
     "Design Decisions/Theme/Camera Perspective.md",
     "Design Decisions/Tooling/Game Engine.md",
     "Templates/Design Decision Template.md",
     "Templates/Feature Template.md",
     "Policy/Tags.md",
     "Policy/Game Definition.md",
-    "Templater/IssueLink.md",
     "Design Decisions/Theme",
     "Design Decisions/Tooling",
     "Design Decisions",
