@@ -7,4 +7,9 @@ assignees: ''
 
 ---
 
+**Documentation type**
+[Select one]
+Design Decision
+Feature Description
+
 **Description**
