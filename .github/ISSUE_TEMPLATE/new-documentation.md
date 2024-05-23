@@ -13,3 +13,5 @@ Design Decision
 Feature Description
 
 **Description**
+
+**Obsidian Outputs**

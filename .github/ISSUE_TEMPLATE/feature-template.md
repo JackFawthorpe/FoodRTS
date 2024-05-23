@@ -9,6 +9,4 @@ assignees: ''
 
 **Description**
 
-**Requirements (pasted from obsidian)**
-
-**Associated Artwork**
+**Obsidian Work Products**
