@@ -1,5 +1,5 @@
 # Description
-[Brief description of the feature]
+As a user, when I have bought produce on the market then I want to be able to receive said goods
 
 ---
 # Tags
@@ -15,7 +15,7 @@
 
 ---
 # Github Issues
-Epic Issue:
+Epic Issue: [#4](https://github.com/JackFawthorpe/FoodRTS/issues/4) 
 
 ---
 # Notes
