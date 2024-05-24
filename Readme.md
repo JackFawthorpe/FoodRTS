@@ -10,6 +10,9 @@ This is a game in (very early) development
 
 ## Tooling
 
+### Game Engine
+This game is built on the Godot Engine. Which can be installed [here](https://godotengine.org/download/windows/). The suggestion is to download with .NET.
+
 ### Documentation
 The documentation for this project is written within [obsidian](https://obsidian.md/). To interact with the documentation you will want to open ```/Documentation``` as a vault within obsidian.
 

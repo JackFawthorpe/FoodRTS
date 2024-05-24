@@ -146,11 +146,14 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "0beb4c49af9e20a1",
+  "active": "bc604dc21a774c86",
   "lastOpenFiles": [
+    "Kanban",
+    "Untitled Kanban.md",
     "Design Decisions/Tooling/Game Engine.md",
     "Design Decisions/Theme/Game Perspective.md",
     "Policy/Game Definition.md",
