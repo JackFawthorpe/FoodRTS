@@ -2,7 +2,7 @@
 name: Grooming
 about: Ticketing of a feature that needs to be done
 title: 'Grooming: '
-labels: ''
+labels: Grooming
 assignees: ''
 
 ---
