@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**UX Design requiring component**
+**Feature and UX Design this is required for**
 
 **Description**
 
