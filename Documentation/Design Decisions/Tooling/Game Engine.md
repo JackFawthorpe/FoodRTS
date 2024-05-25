@@ -8,8 +8,6 @@ What engine is best suited for the development of this game?
 
 [[Camera Perspective]]
 
----
-# Tags
 
 ---
 # Options

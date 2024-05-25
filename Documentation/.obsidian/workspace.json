@@ -4,26 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "72ae16cd298acea0",
+        "id": "3ed7de1edd0c9b8a",
         "type": "tabs",
         "children": [
           {
-            "id": "dfa88f323f27e4ce",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Drawings/UX Design/UI Menus/Market Screen - 1.md"
-              }
-            }
-          },
-          {
-            "id": "f7925eb64d0abcf9",
+            "id": "46627bb07fc3a74f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Features/Market/Buy an Item.md",
+                "file": "Design Decisions/Tooling/User Interface Framework.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tags",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Drawings/UX Design/UI Menus/Market Screen - 1.md",
+                "file": "Design Decisions/Tooling/User Interface Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,20 +103,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Drawings/UX Design/UI Menus/Market Screen - 1.md",
+                "file": "Design Decisions/Tooling/User Interface Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "70ec0c97de5337d6",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -136,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Drawings/UX Design/UI Menus/Market Screen - 1.md"
+                "file": "Design Decisions/Tooling/User Interface Framework.md"
               }
             }
           },
@@ -149,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -168,14 +147,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dfa88f323f27e4ce",
+  "active": "46627bb07fc3a74f",
   "lastOpenFiles": [
-    "Features/Market/Buy an Item.md",
-    "Drawings/UX Design/UI Menus/Market Screen - 1.md",
     "UX Design/UI Menus/Market Screen.md",
+    "Features/Market/Buy an Item.md",
+    "Design Decisions/Tooling/User Interface Framework.md",
+    "Design Decisions/Tooling/Game Engine.md",
+    "Policy/Game Definition.md",
+    "Features/Factory/Receiving Goods.md",
+    "Templater/ProgressBadges/Coding-Badge.md",
+    "Drawings/UX Design/UI Menus/Market Screen - 1.md",
+    "Templates/Feature Template.md",
+    "Design Decisions/Theme/Camera Perspective.md",
+    "Templates/Design Decision Template.md",
+    "Policy/Tags.md",
     "Drawings/Drawing 2024-05-24 22.34.37.excalidraw.md",
     "Drawings/Drawing 2024-05-24 22.34.29.excalidraw.md",
-    "Templates/Design Decision Template.md",
     "Drawings/Drawing 2024-05-24 22.14.38.excalidraw.md",
     "Drawings/UX Design/UI Menus",
     "Drawings/UX Design",
@@ -183,29 +170,21 @@
     "Drawings",
     "Excalidraw/Drawing 2024-05-24 22.11.59.excalidraw.md",
     "Excalidraw",
-    "Features/Factory/Receiving Goods.md",
     "UX Design/UI Menus",
     "UX Design",
-    "Templates/Feature Template.md",
     "Templater/IssueLink.md",
     "Templater/ProgressBadges/UX-Planning-Badge.md",
     "Templater/ProgressBadges/Modeling-Badge.md",
     "Templater/ProgressBadges/Done-Badge.md",
-    "Templater/ProgressBadges/Coding-Badge.md",
     "Templater/ProgressBadges/Animation-Badge.md",
     "Features/Factory",
     "Templater/Untitled.md",
     "Templater/ProgressBadges",
     "UX Designs",
-    "Policy/Tags.md",
-    "Policy/Game Definition.md",
-    "Design Decisions/Theme/Camera Perspective.md",
-    "Design Decisions/Tooling/Game Engine.md",
     "Untitled Kanban.md",
     "Design Decisions/Theme/Game Perspective.md",
     "Untitled.canvas",
     "2024-05-23.md",
-    "Templater/Templates-scripts-insertGitHubLink.js.md",
-    "Home.md"
+    "Templater/Templates-scripts-insertGitHubLink.js.md"
   ]
 }

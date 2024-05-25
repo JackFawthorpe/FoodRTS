@@ -2,10 +2,6 @@
 [Brief description of the feature]
 
 ---
-# Tags
-[What Tags apply to this Feature]
-
----
 # Acceptance Criteria
 
 | AC ID | Description | Current State |

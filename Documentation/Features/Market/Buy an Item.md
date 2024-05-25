@@ -2,11 +2,6 @@
 As a user I want to be able to buy items from the market for use in my factory
 
 ---
-# Tags
-
-#Market 
-
----
 # Acceptance Criteria
 
 | AC ID | Description                                                                                                                                          | Current State           |
@@ -23,6 +18,7 @@ As a user I want to be able to buy items from the market for use in my factory
 Epic Issue: [#3](https://github.com/JackFawthorpe/FoodRTS/issues/3)
 Other:
  - [#5](https://github.com/JackFawthorpe/FoodRTS/issues/5) - UX Design
+ - [#6](https://github.com/JackFawthorpe/FoodRTS/issues/6) - User Interface DD [[User Interface Framework]] 
 ---
 # Notes
 Pre-requisite to [[Receiving Goods]] Feature
