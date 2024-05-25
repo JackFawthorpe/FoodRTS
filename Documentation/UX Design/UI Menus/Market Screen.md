@@ -2,7 +2,7 @@
 
 ---
 # Related Features
-- [[Buy an Item]]
+- [[Buy Food]]
 
 ---
 # Design

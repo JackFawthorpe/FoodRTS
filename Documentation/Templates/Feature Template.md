@@ -4,14 +4,19 @@
 ---
 # Acceptance Criteria
 
-| AC ID | Description | Current State |
-| ----- | ----------- | :------------ |
-|       |             |               |
-|       |             |               |
+| AC ID | Description | [[Current State]] |
+| ----- | ----------- | :---------------- |
+|       |             |                   |
+|       |             |                   |
 
 ---
 # Github Issues
 Epic Issue:
+Grooming Ticket: 
+Required:
+- 
+Optional:
+- 
 
 ---
 # Notes

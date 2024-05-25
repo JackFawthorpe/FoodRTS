@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ed7de1edd0c9b8a",
+        "id": "acaf16ae6ec87de3",
         "type": "tabs",
         "children": [
           {
-            "id": "46627bb07fc3a74f",
+            "id": "4d92883e64944fc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tags",
+                "query": "item",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,19 +147,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "46627bb07fc3a74f",
+  "active": "4d92883e64944fc4",
   "lastOpenFiles": [
-    "UX Design/UI Menus/Market Screen.md",
-    "Features/Market/Buy an Item.md",
-    "Design Decisions/Tooling/User Interface Framework.md",
-    "Design Decisions/Tooling/Game Engine.md",
+    "Policy/Current State.md",
     "Policy/Game Definition.md",
     "Features/Factory/Receiving Goods.md",
-    "Templater/ProgressBadges/Coding-Badge.md",
-    "Drawings/UX Design/UI Menus/Market Screen - 1.md",
+    "Templater/ProgressBadges/UserInterface-Badge.md",
+    "Templater/ProgressBadges/Ticketing-Badge.md",
+    "Features/Market/Buy Food.md",
+    "Features/Core/Food.md",
+    "Features/Core",
+    "Features/Market/Buy an Item.md",
     "Templates/Feature Template.md",
-    "Design Decisions/Theme/Camera Perspective.md",
+    "Design Decisions/Tooling/User Interface Framework.md",
+    "Templater/ProgressBadges/Animation-Badge.md",
+    "[[Ticketing-Badge]].md",
+    "Design Decisions/Tooling/Game Engine.md",
     "Templates/Design Decision Template.md",
+    "Templater/ProgressBadges/UX-Planning-Badge.md",
+    "Templater/ProgressBadges/Coding-Badge.md",
+    "Untitled.md",
+    "UX Design/UI Menus/Market Screen.md",
+    "Drawings/UX Design/UI Menus/Market Screen - 1.md",
+    "Design Decisions/Theme/Camera Perspective.md",
     "Policy/Tags.md",
     "Drawings/Drawing 2024-05-24 22.34.37.excalidraw.md",
     "Drawings/Drawing 2024-05-24 22.34.29.excalidraw.md",
@@ -172,19 +182,8 @@
     "Excalidraw",
     "UX Design/UI Menus",
     "UX Design",
-    "Templater/IssueLink.md",
-    "Templater/ProgressBadges/UX-Planning-Badge.md",
-    "Templater/ProgressBadges/Modeling-Badge.md",
-    "Templater/ProgressBadges/Done-Badge.md",
-    "Templater/ProgressBadges/Animation-Badge.md",
     "Features/Factory",
-    "Templater/Untitled.md",
     "Templater/ProgressBadges",
-    "UX Designs",
-    "Untitled Kanban.md",
-    "Design Decisions/Theme/Game Perspective.md",
-    "Untitled.canvas",
-    "2024-05-23.md",
-    "Templater/Templates-scripts-insertGitHubLink.js.md"
+    "Untitled.canvas"
   ]
 }

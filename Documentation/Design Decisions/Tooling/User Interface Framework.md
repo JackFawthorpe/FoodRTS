@@ -6,7 +6,7 @@ What is the most appropriate way to design a UI interface in Godot
 # Github Issue: [#6](https://github.com/JackFawthorpe/FoodRTS/issues/6) 
 ---
 # Related Documents
-[[Buy an Item]]
+[[Buy Food]]
 [[Market Screen]]
 
 ---

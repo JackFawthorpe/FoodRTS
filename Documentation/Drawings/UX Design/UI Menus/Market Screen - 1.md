@@ -17,11 +17,11 @@ Quantity ^BfG2V9TB
 
 Icon ^Bcav6TKb
 
-[[Buy an Item]] AC2 ^I0eNHB8z
+[[Buy Food]] AC2 ^I0eNHB8z
 
 XXXXXX ^kKUpETAz
 
-[[Buy an Item]] AC3 ^Hb68RzQN
+[[Buy Food]] AC3 ^Hb68RzQN
 
 Cost ^Ek4AwJjs
 
@@ -41,11 +41,11 @@ Quantity ^fwfOYQvi
 
 XXX ^gWZMUQUc
 
-[[Buy an Item]] AC4 ^G2P4svD8
+[[Buy Food]] AC4 ^G2P4svD8
 
 Buy ^E7Nb9ee9
 
-[[Buy an Item]] AC5 ^BxJWasi7
+[[Buy Food]] AC5 ^BxJWasi7
 
 (XX) ^7uSVzbkG
 
@@ -54,7 +54,7 @@ Buy ^E7Nb9ee9
 1: XXX Is the amount the player selected
    (XX) Is the remainder ^7TBjYYwa
 
-[[Buy an Item]] AC6 ^cDJU4VdG
+[[Buy Food]] AC6 ^cDJU4VdG
 
 %%
 ## Drawing
