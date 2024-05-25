@@ -8,3 +8,10 @@ assignees: ''
 ---
 
 **UX Design requiring component**
+
+**Description**
+
+**Requirements**
+- [ ]
+- [ ]
+- [ ]
