@@ -4,3 +4,4 @@
 `[!!tip:Animating]` - Blocked on required animations
 `[!!danger:Coding]` - Blocked on coding feature
 `[!!success:Done]` - Completed
+`[!!failure:Blocked]` - Waiting for the completion of another feature

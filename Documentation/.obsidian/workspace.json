@@ -11,9 +11,12 @@
             "id": "857f19c2c4e8c5fc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Drawings/Tech Designs/Food Representation Diagram.md"
+                "file": "Policy/Model Creation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -116,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Drawings/Tech Designs/Food Representation Diagram.md",
+                "file": "Policy/Model Creation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Drawings/Tech Designs/Food Representation Diagram.md",
+                "file": "Policy/Model Creation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Drawings/Tech Designs/Food Representation Diagram.md"
+                "file": "Policy/Model Creation.md"
               }
             }
           },
@@ -179,13 +182,18 @@
   },
   "active": "857f19c2c4e8c5fc",
   "lastOpenFiles": [
+    "Features/Core/Food.md",
+    "Policy/Model Creation.md",
+    "Policy/Current State.md",
+    "_Templater/ProgressBadges/Blocked-Badge.md",
+    "_Templater/ProgressBadges/Animation-Badge.md",
+    "_Templater/ProgressBadges/Coding-Badge.md",
+    "Drawings/Tech Designs/Food Representation Diagram.md",
     "_Templates/Design Decision Template.md",
     "UX Design/UI Menus/Market Screen.md",
     "Design Decisions/Features/Food Object Representation.md",
-    "Features/Core/Food.md",
     "Features/Market/Buy Food.md",
     "Features/Factory/Prototype Factory Building.md",
-    "Drawings/Tech Designs/Food Representation Diagram.md",
     "Drawings/UX Design/UI Menus/Market Screen - 1.md",
     "Features/Development Tools/Icon Generator.md",
     "Features/Development Tools",
@@ -196,19 +204,14 @@
     "Features/Factory/Receiving Goods.md",
     "_Templates/Feature Template.md",
     "Design Decisions/Tooling/User Interface Framework.md",
-    "Policy/Current State.md",
     "_Templater/ProgressBadges/UserInterface-Badge.md",
     "_Templater/ProgressBadges/Ticketing-Badge.md",
     "Features/Core",
     "Features/Market/Buy an Item.md",
-    "_Templater/ProgressBadges/Animation-Badge.md",
     "[[Ticketing-Badge]].md",
     "Design Decisions/Tooling/Game Engine.md",
     "_Templater/ProgressBadges/UX-Planning-Badge.md",
-    "_Templater/ProgressBadges/Coding-Badge.md",
     "Untitled.md",
-    "Design Decisions/Theme/Camera Perspective.md",
-    "Policy/Tags.md",
     "Drawings/UX Design/UI Menus",
     "Drawings/UX Design",
     "Drawings/UI Menus",

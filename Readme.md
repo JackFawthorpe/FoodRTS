@@ -13,6 +13,9 @@ This is a game in (very early) development
 ### Game Engine
 This game is built on the Godot Engine. Which can be installed [here](https://godotengine.org/download/windows/). The suggestion is to download with .NET.
 
+### Modeling
+This game is modeled with [Blender](https://www.blender.org/). Godot supports direct importing of .blend files.
+
 ### Documentation
 The documentation for this project is written within [obsidian](https://obsidian.md/). To interact with the documentation you will want to open ```/Documentation``` as a vault within obsidian.
 
