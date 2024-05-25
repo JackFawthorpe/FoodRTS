@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodData" load_steps=3 format=3 uid="uid://dlr0du1rj0l23"]
+
+[ext_resource type="Texture2D" uid="uid://csfl55fw3d1j3" path="res://assets/textures/food/Banana.webp" id="1_8jdni"]
+[ext_resource type="Script" path="res://data/model/food_data.gd" id="1_y6jwe"]
+
+[resource]
+script = ExtResource("1_y6jwe")
+name = "Banana"
+icon = ExtResource("1_8jdni")
