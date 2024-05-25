@@ -1,16 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://brwmg0x0out76"]
+[gd_scene load_steps=3 format=3 uid="uid://brwmg0x0out76"]
 
-[ext_resource type="Script" path="res://scripts/components/food_data.gd" id="1_6325d"]
-[ext_resource type="Resource" uid="uid://dlr0du1rj0l23" path="res://data/food/Banana.tres" id="2_3samp"]
+[ext_resource type="Script" path="res://scripts/components/food_pile.gd" id="1_6325d"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_xbh7b"]
 
 [node name="Node3D" type="Node3D"]
-
-[node name="FoodPile" type="Node3D" parent="."]
 script = ExtResource("1_6325d")
-foodData = ExtResource("2_3samp")
-quantity = 5
 
 [node name="Area3D" type="Area3D" parent="."]
 
