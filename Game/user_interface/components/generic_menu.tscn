@@ -1,0 +1,83 @@
+[gd_scene load_steps=4 format=3 uid="uid://d105aweno3xc3"]
+
+[ext_resource type="Theme" uid="uid://dn6yxwxakmpl8" path="res://assets/themes/default.tres" id="1_vhlva"]
+[ext_resource type="Texture2D" uid="uid://bx8keio6oi41i" path="res://assets/textures/ModalBackground.png" id="2_0amt8"]
+[ext_resource type="Texture2D" uid="uid://cl5411pswa1lg" path="res://assets/textures/CloseButton.png" id="3_7y8bu"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_vhlva")
+
+[node name="Background" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_0amt8")
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+
+[node name="MenuContainer" type="MarginContainer" parent="Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="HeaderDivision" type="VSplitContainer" parent="Background/MenuContainer"]
+layout_mode = 2
+split_offset = 32
+
+[node name="HeaderControl" type="Control" parent="Background/MenuContainer/HeaderDivision"]
+layout_mode = 2
+
+[node name="MenuTitle" type="Label" parent="Background/MenuContainer/HeaderDivision/HeaderControl"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -110.0
+offset_top = -19.5
+offset_right = 110.0
+offset_bottom = 19.5
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.00104535
+text = "Default Title"
+horizontal_alignment = 1
+
+[node name="CloseButton" type="TextureButton" parent="Background/MenuContainer/HeaderDivision/HeaderControl"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -32.0
+offset_top = -16.0
+offset_bottom = 16.0
+grow_horizontal = 0
+grow_vertical = 2
+texture_normal = ExtResource("3_7y8bu")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Children" type="Container" parent="Background/MenuContainer/HeaderDivision"]
+layout_mode = 2

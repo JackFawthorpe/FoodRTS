@@ -21,6 +21,8 @@ Epic Issue: [#13](https://github.com/JackFawthorpe/FoodRTS/issues/13)
 Grooming Ticket: [#14](https://github.com/JackFawthorpe/FoodRTS/issues/14) 
 Required:
 -  [#16](https://github.com/JackFawthorpe/FoodRTS/issues/16) [[Food Object Representation]]
+- [#21](https://github.com/JackFawthorpe/FoodRTS/issues/21) Code FoodData and FoodPile
+- [#23](https://github.com/JackFawthorpe/FoodRTS/issues/23)Banana - First Food item
 Optional:
 - 
 

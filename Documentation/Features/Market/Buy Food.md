@@ -24,7 +24,7 @@ Required:
 - [#10](https://github.com/JackFawthorpe/FoodRTS/issues/10) - Food Card
 - [#11](https://github.com/JackFawthorpe/FoodRTS/issues/11) - Selected Food Functionality
 - [#12](https://github.com/JackFawthorpe/FoodRTS/issues/12) - Button functionality Code
-- [#13](https://github.com/JackFawthorpe/FoodRTS/issues/13) - 
+- [#22](https://github.com/JackFawthorpe/FoodRTS/issues/22) - FoodSupplier and SellOrder Implementation [[Food Object Representation]]
 Optional:
 - [#8](https://github.com/JackFawthorpe/FoodRTS/issues/8) - Stylized Menus
 ---

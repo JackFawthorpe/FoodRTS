@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjj1psbdj3o5i"]
+
+[ext_resource type="PackedScene" uid="uid://d105aweno3xc3" path="res://user_interface/components/generic_menu.tscn" id="1_723os"]
+
+[node name="MenuBackground" instance=ExtResource("1_723os")]
+rotation = 0.000993802
+
+[node name="MenuTitle" parent="Background/MenuContainer/HeaderDivision/HeaderControl" index="0"]
+text = "Market"
+horizontal_alignment = 1
+
+[node name="ItemList" type="ItemList" parent="Background/MenuContainer/HeaderDivision/Children" index="0"]
+layout_mode = 2
