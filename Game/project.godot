@@ -24,10 +24,15 @@ config/name="FoodRTS"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+FoodResourceManager="*res://scripts/autoloads/food_resource_manager.gd"
+SupplierManager="*res://scripts/autoloads/supplier_manager.gd"
+
 [dotnet]
 
 project/assembly_name="FoodRTS"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/resources_spreadsheet_view/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot_resource_groups/plugin.cfg", "res://addons/resources_spreadsheet_view/plugin.cfg")

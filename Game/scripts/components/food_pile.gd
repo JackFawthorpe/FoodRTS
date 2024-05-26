@@ -6,6 +6,5 @@ extends Node3D
 
 
 func _ready():
-	print("Readying")
 	var instance = foodData.scene.instantiate()
 	add_child(instance)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inventory/Food Icon Tracking.md",
+                "file": "Features/Market/Buy Food.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inventory/Food Icon Tracking.md",
+                "file": "Features/Market/Buy Food.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inventory/Food Icon Tracking.md",
+                "file": "Features/Market/Buy Food.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inventory/Food Icon Tracking.md"
+                "file": "Features/Market/Buy Food.md"
               }
             }
           },
@@ -182,12 +182,16 @@
   },
   "active": "857f19c2c4e8c5fc",
   "lastOpenFiles": [
+    "Features/Core/Food.md",
+    "Features/Development Tools/Logging.md",
+    "Policy/Tooling Usage/Godot/Logging.md",
     "Drawings/Tech Designs/Food Representation Diagram.md",
+    "Policy/Tooling Usage/Godot",
+    "Design Decisions/Features/Food Object Representation.md",
+    "Inventory/Food Icon Tracking.md",
     "Design Decisions/Tooling/Game Engine.md",
     "Design Decisions/Tooling/User Interface Framework.md",
     "Design Decisions/Theme/Camera Perspective.md",
-    "Design Decisions/Features/Food Object Representation.md",
-    "Inventory/Food Icon Tracking.md",
     "Features/Development Tools/Automatic Icon Generation.md",
     "Inventory",
     "Features/Development Tools/Icon Generation.md",
@@ -199,7 +203,6 @@
     "Policy/Tooling Usage/Obsidian",
     "Policy/Tooling Usage",
     "Policy/Tooling Usage/Blender/Model Creation.md",
-    "Features/Core/Food.md",
     "_Templates/Design Decision Template.md",
     "_Templates/Feature Template.md",
     "_Templater/ProgressBadges/Animation-Badge.md",
@@ -211,13 +214,10 @@
     "_Templater/ProgressBadges/UX-Planning-Badge.md",
     "Features/Factory/Receiving Goods.md",
     "Features/Market/Buy Food.md",
-    "Features/Factory/Prototype Factory Building.md",
-    "_Templater/ProgressBadges/Coding-Badge.md",
     "Features/Development Tools",
     "Drawings/Tech Designs",
     "Design Decisions/Features",
     "Features/Core",
-    "Drawings/UX Design/UI Menus",
     "Untitled.canvas"
   ]
 }
