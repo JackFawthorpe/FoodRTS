@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csfl55fw3d1j3"
-path="res://.godot/imported/Banana.webp-ad8bf924f23ef1f0ab467062f1b6cd64.ctex"
+uid="uid://c2d613x6sc5aj"
+path="res://.godot/imported/banana.png-1e5061c491587449b0af258f070b16ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/food/Banana.webp"
-dest_files=["res://.godot/imported/Banana.webp-ad8bf924f23ef1f0ab467062f1b6cd64.ctex"]
+source_file="res://assets/textures/food/banana.png"
+dest_files=["res://.godot/imported/banana.png-1e5061c491587449b0af258f070b16ed.ctex"]
 
 [params]
 
