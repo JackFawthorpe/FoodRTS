@@ -1,6 +1,7 @@
+class_name UIController
 extends Control
 
-var menu_stack: Array[Control] = []
+var menu_stack: Array[Menu] = []
 
 enum MENUS {
    	BUY_FOOD
@@ -13,8 +14,7 @@ var menus = {
 # Handler for hot key menu opening
 func _input(event):
 	if event.is_action_pressed("Close Menu"):
-		print("Closing most recent menu")
-		_close_menu()
+		close_menu(menu_stack[-1])
 	elif event.is_action_pressed("Open Buy Screen"):
 		print("Opening Buy Screen")
 		_open_menu(MENUS.BUY_FOOD)
@@ -25,8 +25,8 @@ func _open_menu(to_open: MENUS):
 	menu_stack.push_back(menu)
 	add_child(menu)
 
-# Closes the most recent menu
-func _close_menu():
-	var to_close = menu_stack.pop_back()
-	if to_close:
-		to_close.queue_free()
+# Checks if the provided menu is within the menu stack and closes the menu
+func close_menu(menu: Menu):
+	print("Closing Menu")
+	menu_stack.erase(menu)
+	menu.queue_free()
