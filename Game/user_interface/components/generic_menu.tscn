@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://d105aweno3xc3"]
+[gd_scene load_steps=5 format=3 uid="uid://d105aweno3xc3"]
 
 [ext_resource type="Theme" uid="uid://dn6yxwxakmpl8" path="res://assets/themes/default.tres" id="1_vhlva"]
 [ext_resource type="Texture2D" uid="uid://bx8keio6oi41i" path="res://assets/textures/ModalBackground.png" id="2_0amt8"]
+[ext_resource type="Script" path="res://user_interface/components/menu.gd" id="2_ans8l"]
 [ext_resource type="Texture2D" uid="uid://cl5411pswa1lg" path="res://assets/textures/CloseButton.png" id="3_7y8bu"]
 
 [node name="Menu" type="Control"]
@@ -12,6 +13,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_vhlva")
+script = ExtResource("2_ans8l")
 
 [node name="Background" type="NinePatchRect" parent="."]
 layout_mode = 1

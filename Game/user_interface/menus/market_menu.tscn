@@ -7,7 +7,6 @@ rotation = 0.000993802
 
 [node name="MenuTitle" parent="Background/MenuContainer/HeaderDivision/HeaderControl" index="0"]
 text = "Market"
-horizontal_alignment = 1
 
 [node name="ItemList" type="ItemList" parent="Background/MenuContainer/HeaderDivision/Children" index="0"]
 layout_mode = 2

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1hs1ea22xkw2"]
+
+[ext_resource type="PackedScene" uid="uid://bn1j8v18g8k3k" path="res://user_interface/components/ui_controller.tscn" id="1_nttr3"]
+[ext_resource type="Script" path="res://user_interface/ui_controller.gd" id="2_urqk2"]
+
+[node name="Root" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.220821)
+
+[node name="ui_controller" parent="." instance=ExtResource("1_nttr3")]
+script = ExtResource("2_urqk2")
+
+[node name="Camera3D" type="Camera3D" parent="."]
