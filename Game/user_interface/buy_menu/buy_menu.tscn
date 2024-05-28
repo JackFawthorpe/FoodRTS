@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://l585y6yty2dr"]
+
+[ext_resource type="PackedScene" uid="uid://d105aweno3xc3" path="res://user_interface/common/generic_menu.tscn" id="1_7rq62"]
+[ext_resource type="Script" path="res://user_interface/buy_menu/buy_menu.gd" id="2_2cpvi"]
+[ext_resource type="Theme" uid="uid://dn6yxwxakmpl8" path="res://assets/themes/default.tres" id="3_13neh"]
+
+[node name="BuyMenu" instance=ExtResource("1_7rq62")]
+script = ExtResource("2_2cpvi")
+
+[node name="MenuTitle" parent="Background/MenuContainer/HeaderDivision/HeaderControl" index="0"]
+text = "Buy Menu"
+
+[node name="SelectedSellOrderSplitter" type="HSplitContainer" parent="Background/MenuContainer/HeaderDivision/Children" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SellOrderGrid" type="GridContainer" parent="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter" index="0"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3_13neh")
+theme_override_constants/h_separation = 75
+theme_override_constants/v_separation = 50
+columns = 3
+
+[node name="SelectedOrderContainer" type="PanelContainer" parent="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter" index="1"]
+visible = false
+layout_mode = 2

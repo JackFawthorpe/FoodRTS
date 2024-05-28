@@ -8,8 +8,15 @@ const SUPPLIER_COUNT: int = 5
 const MAX_QUANTITY = 10
 const MAX_PRICE = 10
 
+# Generates a list of all the orders that are currently available
+func get_all_sell_orders() -> Array[SellOrder]:
+	var orders: Array[SellOrder] = []
+	for supplier in _suppliers:
+		orders.append_array(supplier.get_orders())
+	return orders
+
 # Generates a sell order to be passed to a supplier
-func _get_new_sell_order():
+func _get_new_sell_order() -> SellOrder:
 	var food: FoodData = FoodResourceManager.get_random_food()
 	var quantity: int = randi() % MAX_QUANTITY
 	var sell_price: int = randi() % MAX_PRICE

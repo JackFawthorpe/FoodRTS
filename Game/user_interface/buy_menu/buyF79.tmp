@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://l585y6yty2dr"]
+
+[ext_resource type="PackedScene" uid="uid://d105aweno3xc3" path="res://user_interface/common/generic_menu.tscn" id="1_7rq62"]
+[ext_resource type="Script" path="res://user_interface/buy_menu/buy_menu.gd" id="2_2cpvi"]
+
+[node name="BuyMenu" instance=ExtResource("1_7rq62")]
+script = ExtResource("2_2cpvi")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Background/MenuContainer/HeaderDivision/Children" index="0"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SellOrderGrid" type="GridContainer" parent="Background/MenuContainer/HeaderDivision/Children/HBoxContainer" index="0"]
+layout_mode = 2

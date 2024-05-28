@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsma6nhkei2yg"]
+
+[ext_resource type="Script" path="res://user_interface/buy_menu/SellOrderGridItem.gd" id="1_0whgf"]
+[ext_resource type="Theme" uid="uid://dn6yxwxakmpl8" path="res://assets/themes/default.tres" id="2_xa2l0"]
+
+[node name="SellOrderGridItem" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0whgf")
+
+[node name="Splitter" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+alignment = 1
+
+[node name="FoodIcon" type="TextureRect" parent="Splitter"]
+layout_mode = 2
+
+[node name="SellOrderDescription" type="VBoxContainer" parent="Splitter"]
+layout_mode = 2
+
+[node name="FoodName" type="Label" parent="Splitter/SellOrderDescription"]
+layout_mode = 2
+theme = ExtResource("2_xa2l0")
+
+[node name="Quantity" type="Label" parent="Splitter/SellOrderDescription"]
+layout_mode = 2
+
+[node name="Price" type="Label" parent="Splitter/SellOrderDescription"]
+layout_mode = 2

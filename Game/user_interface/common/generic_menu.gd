@@ -6,3 +6,7 @@ func _on_close_button_pressed():
 	var ui_controller = get_parent()
 	if ui_controller is UIController:
 		ui_controller.close_menu(self)
+
+# Virtual function to be implemented by children classes
+func handle_open():
+	pass

@@ -8,12 +8,12 @@ enum MENUS {
 }
 
 var menus = {
-	MENUS.BUY_FOOD : preload("res://user_interface/menus/market_menu.tscn")
+	MENUS.BUY_FOOD : preload("res://user_interface/buy_menu/buy_menu.tscn")
 }
 
 # Handler for hot key menu opening
 func _input(event):
-	if event.is_action_pressed("Close Menu"):
+	if event.is_action_pressed("Close Menu") and menu_stack.size() > 0:
 		close_menu(menu_stack[-1])
 	elif event.is_action_pressed("Open Buy Screen"):
 		print("Opening Buy Screen")
@@ -21,9 +21,10 @@ func _input(event):
 		
 # Opens the provided menu
 func _open_menu(to_open: MENUS):
-	var menu = menus[to_open].instantiate()
+	var menu: Menu = menus[to_open].instantiate()
 	menu_stack.push_back(menu)
 	add_child(menu)
+	menu.handle_open()
 
 # Checks if the provided menu is within the menu stack and closes the menu
 func close_menu(menu: Menu):
