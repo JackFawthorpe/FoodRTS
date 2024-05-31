@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dr44lq41pf3o7"]
+
+[ext_resource type="Script" path="res://environment/FactoryLayout/Room.gd" id="1_2g3xj"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_i2n4n"]
+
+[node name="Room" type="Node3D"]
+script = ExtResource("1_2g3xj")
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 0.2, 0, 0, 0, 3, 1.5, -0.1, 1.5)
+mesh = SubResource("BoxMesh_i2n4n")

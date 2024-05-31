@@ -2,7 +2,7 @@
 
 [ext_resource type="Theme" uid="uid://dn6yxwxakmpl8" path="res://assets/themes/default.tres" id="1_vhlva"]
 [ext_resource type="Texture2D" uid="uid://bx8keio6oi41i" path="res://assets/textures/ModalBackground.png" id="2_0amt8"]
-[ext_resource type="Script" path="res://user_interface/common/generic_menu.gd" id="2_klp5o"]
+[ext_resource type="Script" path="res://user_interface/common/GenericMenu.gd" id="2_klp5o"]
 [ext_resource type="Texture2D" uid="uid://cl5411pswa1lg" path="res://assets/textures/CloseButton.png" id="3_7y8bu"]
 
 [node name="Menu" type="Control"]

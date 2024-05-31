@@ -8,7 +8,7 @@ enum MENUS {
 }
 
 var menus = {
-	MENUS.BUY_FOOD : preload("res://user_interface/buy_menu/buy_menu.tscn")
+	MENUS.BUY_FOOD : preload("res://user_interface/buy_menu/BuyMenu.tscn")
 }
 
 # Handler for hot key menu opening
