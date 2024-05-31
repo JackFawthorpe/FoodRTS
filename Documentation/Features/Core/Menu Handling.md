@@ -1,5 +1,6 @@
 # Description
 As a user, I want a well defined smooth menu experience
+For instance, how many menus can be open at once, can they be dragged?
 
 ---
 # Acceptance Criteria

@@ -4,35 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db761aa89a27157f",
+        "id": "fea1ac2f072fd13a",
         "type": "tabs",
         "children": [
           {
-            "id": "857f19c2c4e8c5fc",
+            "id": "6e0f881a7d852acf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Features/Core/Menu Handling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "66d95c00d56a8124",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5c93d0e01b16b799",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Design Decisions/Features/Food Object Representation.md",
+                "file": "Design Decisions/Tooling/Factory Layout Designer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,20 +21,36 @@
             }
           },
           {
-            "id": "6f71c0bc01318b54",
+            "id": "f72d130bd5038eed",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "67744a05b4f84c49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "085b85d1477951da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Features/Market/Buy Food.md",
+                "file": "Features/Factory/Prototype Factory Building.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 297.5
   },
   "right": {
     "id": "5101a03248c259fe",
@@ -119,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Features/Core/Menu Handling.md",
+                "file": "Features/Factory/Prototype Factory Building.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Features/Core/Menu Handling.md",
+                "file": "Features/Factory/Prototype Factory Building.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Features/Core/Menu Handling.md"
+                "file": "Features/Factory/Prototype Factory Building.md"
               }
             }
           },
@@ -180,14 +177,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "857f19c2c4e8c5fc",
+  "active": "085b85d1477951da",
   "lastOpenFiles": [
-    "Features/Market/Buy Food.md",
+    "Drawings/Tech Designs/Factory Layout Designer.md",
+    "Features/Factory/Prototype Factory Building.md",
+    "Design Decisions/Tooling/Factory Layout Designer.md",
+    "Drawings/Tech Designs/Food Representation Diagram.md",
+    "Drawings/UX Design/UI Menus/Market Screen - 1.md",
+    "Drawings/Tech Designs/Untitled.md",
     "Features/Core/Menu Handling.md",
+    "Features/Market/Buy Food.md",
     "Features/Core/Food.md",
     "Features/Development Tools/Logging.md",
     "Policy/Tooling Usage/Godot/Logging.md",
-    "Drawings/Tech Designs/Food Representation Diagram.md",
     "Policy/Tooling Usage/Godot",
     "Design Decisions/Features/Food Object Representation.md",
     "Inventory/Food Icon Tracking.md",
@@ -209,11 +211,6 @@
     "_Templates/Feature Template.md",
     "_Templater/ProgressBadges/Animation-Badge.md",
     "_Templater/ProgressBadges/Blocked-Badge.md",
-    "_Templater/ProgressBadges/Done-Badge.md",
-    "_Templater/ProgressBadges/Modeling-Badge.md",
-    "_Templater/ProgressBadges/Ticketing-Badge.md",
-    "_Templater/ProgressBadges/UserInterface-Badge.md",
-    "_Templater/ProgressBadges/UX-Planning-Badge.md",
     "Features/Development Tools",
     "Drawings/Tech Designs",
     "Design Decisions/Features",
