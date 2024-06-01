@@ -24,9 +24,12 @@
             "id": "f72d130bd5038eed",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
+                "file": "Features/Development Tools/Logging.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Drawings/Tech Designs/Factory Layout Designer.md",
+                "file": "Features/Development Tools/Logging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Drawings/Tech Designs/Factory Layout Designer.md",
+                "file": "Features/Development Tools/Logging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
+                "file": "Features/Development Tools/Logging.md"
               }
             }
           },
@@ -160,8 +163,8 @@
   },
   "active": "f72d130bd5038eed",
   "lastOpenFiles": [
-    "Features/Factory/Prototype Factory Building.md",
     "Drawings/Tech Designs/Factory Layout Designer.md",
+    "Features/Factory/Prototype Factory Building.md",
     "Design Decisions/Tooling/Factory Layout Designer.md",
     "Drawings/Tech Designs/Food Representation Diagram.md",
     "Drawings/UX Design/UI Menus/Market Screen - 1.md",

@@ -17,5 +17,6 @@ func enumerate(arr: Array):
 
 ## Frees all the children for a given node
 func free_children(parent: Node):
+	Logger.debug(str("Freeing children of ", parent), "Utilities")
 	for child in parent.get_children():
 		child.queue_free()

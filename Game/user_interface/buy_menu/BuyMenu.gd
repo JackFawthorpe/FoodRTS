@@ -6,6 +6,7 @@ extends Menu
 var SellOrderGridItemScene: PackedScene = preload("res://user_interface/buy_menu/SellOrderGridItem.tscn")
 
 func handle_open():
+	Logger.info("Opening Buy Menu", "Buy Menu")
 	var orders: Array[SellOrder] = SupplierManager.get_all_sell_orders()
 	for order in orders:
 		sell_order_grid.add_child(

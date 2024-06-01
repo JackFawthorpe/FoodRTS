@@ -57,6 +57,7 @@ func _ready():
 
 ## Called when a parameter of the room needs to be regenerated
 func _update():
+	Logger.info("Updating Room Layout", "Room")
 	if !_is_ready:
 		return
 	_update_absolute_position()
@@ -74,6 +75,7 @@ func _update_absolute_position():
 
 ## Recalculates the scale and position of the floor with respect to the room
 func _update_floor():
+	Logger.info("Updating room floor", "Room")
 	var floor: MeshInstance3D = $Floor
 	
 	var floor_position = Vector3(
@@ -91,6 +93,7 @@ func _update_floor():
 
 ## Generates the wall nodes
 func _generate_walls(wall_visibility):
+	Logger.info("Generating new walls", "Room")
 	var walls = []
 	for idx in range(wall_visibility.size()):
 		# Dont generate the wall if its not visible
@@ -123,6 +126,7 @@ func _generate_walls(wall_visibility):
 
 ## Moves the walls to the correct position within the room
 func _position_walls(walls, wall_visibility):
+	Logger.info("Updating room's wall positioning", "Room")
 	for idx in range(wall_visibility.size()):
 		if !wall_visibility[idx]:
 			continue
@@ -152,7 +156,6 @@ func _position_walls(walls, wall_visibility):
 					height /  2.0,
 					width /  2.0
 				)
-				print(wall_position)
 		walls[idx].set_position(wall_position)
 		
 

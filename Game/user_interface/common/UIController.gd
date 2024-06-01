@@ -21,6 +21,7 @@ func _input(event):
 		
 # Opens the provided menu
 func _open_menu(to_open: MENUS):
+	Logger.info("Opening Menu: " % to_open, "UIController")
 	var menu: Menu = menus[to_open].instantiate()
 	menu_stack.push_back(menu)
 	add_child(menu)
@@ -28,6 +29,6 @@ func _open_menu(to_open: MENUS):
 
 # Checks if the provided menu is within the menu stack and closes the menu
 func close_menu(menu: Menu):
-	print("Closing Menu")
+	Logger.info("Closing Menu: " % menu, "UIController")
 	menu_stack.erase(menu)
 	menu.queue_free()

@@ -6,10 +6,6 @@
 
 [node name="Room" type="Node3D"]
 script = ExtResource("1_2g3xj")
-show_west_wall = true
-show_north_wall = true
-show_east_wall = true
-show_south_wall = true
 length = 5
 width = 5
 
