@@ -27,8 +27,9 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-FoodResourceManager="*res://autoloads/food_resource_manager.gd"
-SupplierManager="*res://autoloads/supplier_manager.gd"
+Utilities="*res://autoloads/Utilities.gd"
+FoodResourceManager="*res://autoloads/FoodResourceManager.gd"
+SupplierManager="*res://autoloads/SupplierManager.gd"
 
 [dotnet]
 

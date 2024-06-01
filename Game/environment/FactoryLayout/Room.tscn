@@ -6,7 +6,15 @@
 
 [node name="Room" type="Node3D"]
 script = ExtResource("1_2g3xj")
+show_west_wall = true
+show_north_wall = true
+show_east_wall = true
+show_south_wall = true
+length = 5
+width = 5
 
 [node name="Floor" type="MeshInstance3D" parent="."]
-transform = Transform3D(3, 0, 0, 0, 0.2, 0, 0, 0, 3, 1.5, -0.1, 1.5)
+transform = Transform3D(5, 0, 0, 0, 0.2, 0, 0, 0, 5, 2.5, -0.1, 2.5)
 mesh = SubResource("BoxMesh_i2n4n")
+
+[node name="WallContainer" type="Node3D" parent="."]
