@@ -31,4 +31,4 @@ func _ready():
 		_suppliers.append(Supplier.new([sell_order]))
 	Logger.info("Created %d suppliers" % _suppliers.size(), "SupplierManager")
 	for supplier in _suppliers:
-		print(supplier)
+		Logger.info(supplier, "Supplier Manager")

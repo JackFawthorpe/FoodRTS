@@ -16,12 +16,11 @@ func _input(event):
 	if event.is_action_pressed("Close Menu") and menu_stack.size() > 0:
 		close_menu(menu_stack[-1])
 	elif event.is_action_pressed("Open Buy Screen"):
-		print("Opening Buy Screen")
 		_open_menu(MENUS.BUY_FOOD)
 		
 # Opens the provided menu
 func _open_menu(to_open: MENUS):
-	Logger.info("Opening Menu: " % to_open, "UIController")
+	Logger.info("Opening Menu", "UIController")
 	var menu: Menu = menus[to_open].instantiate()
 	menu_stack.push_back(menu)
 	add_child(menu)
@@ -29,6 +28,6 @@ func _open_menu(to_open: MENUS):
 
 # Checks if the provided menu is within the menu stack and closes the menu
 func close_menu(menu: Menu):
-	Logger.info("Closing Menu: " % menu, "UIController")
+	Logger.info("Closing Menu", "UIController")
 	menu_stack.erase(menu)
 	menu.queue_free()

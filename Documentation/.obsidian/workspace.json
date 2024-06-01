@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fea1ac2f072fd13a",
+        "id": "d602fe01f29556ee",
         "type": "tabs",
         "children": [
           {
-            "id": "6e0f881a7d852acf",
+            "id": "0bd4b89ca9eb8d58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Design Decisions/Tooling/Factory Layout Designer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f72d130bd5038eed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Features/Development Tools/Logging.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Features/Development Tools/Logging.md",
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Features/Development Tools/Logging.md",
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Features/Development Tools/Logging.md"
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
               }
             }
           },
@@ -161,18 +144,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f72d130bd5038eed",
+  "active": "0bd4b89ca9eb8d58",
   "lastOpenFiles": [
+    "Features/Market/Buy Food.md",
+    "Design Decisions/Tooling/Factory Layout Designer.md",
+    "Features/Core/Basic Camera Control.md",
+    "Features/Core/Food.md",
+    "Features/Core/Menu Handling.md",
+    "Features/Development Tools/Logging.md",
     "Drawings/Tech Designs/Factory Layout Designer.md",
     "Features/Factory/Prototype Factory Building.md",
-    "Design Decisions/Tooling/Factory Layout Designer.md",
     "Drawings/Tech Designs/Food Representation Diagram.md",
     "Drawings/UX Design/UI Menus/Market Screen - 1.md",
     "Drawings/Tech Designs/Untitled.md",
-    "Features/Core/Menu Handling.md",
-    "Features/Market/Buy Food.md",
-    "Features/Core/Food.md",
-    "Features/Development Tools/Logging.md",
     "Policy/Tooling Usage/Godot/Logging.md",
     "Policy/Tooling Usage/Godot",
     "Design Decisions/Features/Food Object Representation.md",
@@ -194,7 +178,6 @@
     "_Templates/Design Decision Template.md",
     "_Templates/Feature Template.md",
     "_Templater/ProgressBadges/Animation-Badge.md",
-    "_Templater/ProgressBadges/Blocked-Badge.md",
     "Features/Development Tools",
     "Drawings/Tech Designs",
     "Design Decisions/Features",

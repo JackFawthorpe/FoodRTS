@@ -20,3 +20,6 @@ func free_children(parent: Node):
 	Logger.debug(str("Freeing children of ", parent), "Utilities")
 	for child in parent.get_children():
 		child.queue_free()
+
+func is_left_mouse_click(event):
+	return event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.is_pressed()

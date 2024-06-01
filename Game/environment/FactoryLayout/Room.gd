@@ -76,7 +76,7 @@ func _update_absolute_position():
 ## Recalculates the scale and position of the floor with respect to the room
 func _update_floor():
 	Logger.info("Updating room floor", "Room")
-	var floor: MeshInstance3D = $Floor
+	var floor_mesh: MeshInstance3D = $Floor
 	
 	var floor_position = Vector3(
 		float(length) / 2,
@@ -88,8 +88,8 @@ func _update_floor():
 		BOX_THICKNESS,
 		width
 	)
-	floor.set_scale(floor_scale)
-	floor.set_position(floor_position)
+	floor_mesh.set_scale(floor_scale)
+	floor_mesh.set_position(floor_position)
 
 ## Generates the wall nodes
 func _generate_walls(wall_visibility):

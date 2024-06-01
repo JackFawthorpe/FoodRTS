@@ -13,7 +13,7 @@ func _init(food: FoodData, quantity: int, sell_price: int):
 	_sell_price = sell_price
 
 func _to_string():
-	return str("SellOrder:{Food:", _food.name, ", Quantity:", _quantity, ",SellPrice:", _sell_price, "}")
+	return str("SellOrder:{Food:", _food.name, ", Quantity:", _quantity, ", SellPrice:", _sell_price, "}")
 
 func get_food_data() -> FoodData:
 	return _food

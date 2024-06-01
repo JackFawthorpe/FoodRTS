@@ -15,3 +15,12 @@ fov = 112.5
 [node name="FactoryLayoutController" type="Node" parent="."]
 
 [node name="Room" parent="FactoryLayoutController" instance=ExtResource("2_jt1uj")]
+show_west_wall = true
+show_north_wall = true
+show_east_wall = true
+show_south_wall = true
+width = 10
+height = 2
+
+[node name="Light" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.630459, -9.25636e-09, -0.776223, 0.776223, 7.51815e-09, 0.630459, 0, -1, 1.19249e-08, -3.72126, 5, 1.5)

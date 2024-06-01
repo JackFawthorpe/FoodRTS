@@ -1,11 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://dsma6nhkei2yg"]
+[gd_scene load_steps=3 format=3 uid="uid://dsma6nhkei2yg"]
 
 [ext_resource type="Script" path="res://user_interface/buy_menu/SellOrderGridItem.gd" id="1_0whgf"]
-[ext_resource type="Texture2D" uid="uid://c2d613x6sc5aj" path="res://assets/textures/food/banana.png" id="2_issul"]
 [ext_resource type="Theme" uid="uid://dn6yxwxakmpl8" path="res://assets/themes/default.tres" id="2_xa2l0"]
 
 [node name="SellOrderGridItem" type="Control"]
-custom_minimum_size = Vector2(250, 150)
+custom_minimum_size = Vector2(200, 100)
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -23,13 +22,12 @@ offset_bottom = 40.0
 alignment = 1
 
 [node name="FoodIcon" type="TextureRect" parent="Splitter"]
-custom_minimum_size = Vector2(150, 150)
+custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
-texture = ExtResource("2_issul")
 expand_mode = 1
 
 [node name="SellOrderDescription" type="VBoxContainer" parent="Splitter"]
-custom_minimum_size = Vector2(100, 150)
+custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 alignment = 1
 
@@ -42,3 +40,5 @@ layout_mode = 2
 
 [node name="Price" type="Label" parent="Splitter/SellOrderDescription"]
 layout_mode = 2
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]

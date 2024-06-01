@@ -325,7 +325,7 @@ const ERROR_MESSAGES = {
 ##=============##
 
 # Configuration
-var default_output_level = WARN
+var default_output_level = INFO
 # TODO: Find (or implement in Godot) a more clever way to achieve that
 
 var default_output_strategies = [STRATEGY_PRINT, STRATEGY_PRINT, STRATEGY_PRINT, STRATEGY_PRINT, STRATEGY_PRINT]

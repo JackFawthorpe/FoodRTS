@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://bc7opgn8v3ort"]
+
+[ext_resource type="Script" path="res://user_interface/buy_menu/SelectedSellOrderContainer.gd" id="1_7yo86"]
+[ext_resource type="PackedScene" uid="uid://dsma6nhkei2yg" path="res://user_interface/buy_menu/SellOrderGridItem.tscn" id="2_i85ff"]
+
+[node name="SelectedSellOrderContainer" type="MarginContainer"]
+visible = false
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_7yo86")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+alignment = 1
+
+[node name="SellOrder" parent="VBoxContainer" instance=ExtResource("2_i85ff")]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="DecrementButton" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "-"
+
+[node name="TextEdit" type="TextEdit" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "1 (8)"
+
+[node name="IncrementButton" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "+"
