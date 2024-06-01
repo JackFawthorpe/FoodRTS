@@ -30,3 +30,5 @@ columns = 3
 
 [node name="SelectedSellOrderContainer" parent="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter" index="1" instance=ExtResource("4_027ab")]
 layout_mode = 2
+
+[connection signal="sell_order_bought" from="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter/SelectedSellOrderContainer" to="." method="_on_selected_sell_order_container_sell_order_bought"]

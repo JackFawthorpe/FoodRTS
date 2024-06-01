@@ -11,9 +11,12 @@
             "id": "0bd4b89ca9eb8d58",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
+                "file": "Policy/Tooling Usage/Godot/Software Development.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Drawings/Tech Designs/Factory Layout Designer.md",
+                "file": "Policy/Tooling Usage/Godot/Software Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Drawings/Tech Designs/Factory Layout Designer.md",
+                "file": "Policy/Tooling Usage/Godot/Software Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
+                "file": "Policy/Tooling Usage/Godot/Software Development.md"
               }
             }
           },
@@ -144,20 +147,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0bd4b89ca9eb8d58",
+  "active": "bc604dc21a774c86",
   "lastOpenFiles": [
+    "Policy/Tooling Usage/Godot/Logging.md",
+    "Policy/Tooling Usage/Godot/Software Development.md",
+    "Drawings/Tech Designs/Factory Layout Designer.md",
     "Features/Market/Buy Food.md",
     "Design Decisions/Tooling/Factory Layout Designer.md",
     "Features/Core/Basic Camera Control.md",
     "Features/Core/Food.md",
     "Features/Core/Menu Handling.md",
     "Features/Development Tools/Logging.md",
-    "Drawings/Tech Designs/Factory Layout Designer.md",
     "Features/Factory/Prototype Factory Building.md",
     "Drawings/Tech Designs/Food Representation Diagram.md",
     "Drawings/UX Design/UI Menus/Market Screen - 1.md",
     "Drawings/Tech Designs/Untitled.md",
-    "Policy/Tooling Usage/Godot/Logging.md",
     "Policy/Tooling Usage/Godot",
     "Design Decisions/Features/Food Object Representation.md",
     "Inventory/Food Icon Tracking.md",
@@ -177,7 +181,6 @@
     "Policy/Tooling Usage/Blender/Model Creation.md",
     "_Templates/Design Decision Template.md",
     "_Templates/Feature Template.md",
-    "_Templater/ProgressBadges/Animation-Badge.md",
     "Features/Development Tools",
     "Drawings/Tech Designs",
     "Design Decisions/Features",

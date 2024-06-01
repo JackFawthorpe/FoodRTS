@@ -8,7 +8,10 @@ const SUPPLIER_COUNT: int = 5
 const MAX_QUANTITY = 10
 const MAX_PRICE = 10
 
-# Generates a list of all the orders that are currently available
+func get_suppliers():
+	return _suppliers
+
+## Generates a list of all the orders that are currently available
 func get_all_sell_orders() -> Array[SellOrder]:
 	Logger.info("Getting all sell orders", "SupplierManager")
 	var orders: Array[SellOrder] = []
@@ -16,15 +19,15 @@ func get_all_sell_orders() -> Array[SellOrder]:
 		orders.append_array(supplier.get_orders())
 	return orders
 
-# Generates a sell order to be passed to a supplier
+## Generates a sell order to be passed to a supplier
 func _get_new_sell_order() -> SellOrder:
 	Logger.info("Generating a new SellOrder", "SupplierManager")
 	var food: FoodData = FoodResourceManager.get_random_food()
-	var quantity: int = randi() % MAX_QUANTITY
-	var sell_price: int = randi() % MAX_PRICE
+	var quantity: int = randi_range(1, MAX_QUANTITY)
+	var sell_price: int = randi_range(1, MAX_PRICE)
 	return SellOrder.new(food, quantity, sell_price)
 
-# Prints a list of all the foods available from the food manager
+## Prints a list of all the foods available from the food manager
 func _ready():
 	for idx in range(SUPPLIER_COUNT):
 		var sell_order = _get_new_sell_order()

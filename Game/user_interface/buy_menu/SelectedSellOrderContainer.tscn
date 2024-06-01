@@ -44,7 +44,7 @@ size_flags_vertical = 3
 [node name="LineEdit" type="LineEdit" parent="VBoxContainer/QuantitySelector"]
 custom_minimum_size = Vector2(150, 30)
 layout_mode = 2
-text = "1 (8)"
+text = "0 (X)"
 alignment = 1
 max_length = 10
 virtual_keyboard_enabled = false
@@ -71,3 +71,5 @@ layout_mode = 2
 [node name="ConfirmButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Buy"
+
+[connection signal="pressed" from="VBoxContainer/ConfirmButton" to="." method="_on_buy"]
