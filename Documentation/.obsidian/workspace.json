@@ -11,12 +11,9 @@
             "id": "0bd4b89ca9eb8d58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Policy/Tooling Usage/Godot/Software Development.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
               }
             }
           }
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Policy/Tooling Usage/Godot/Software Development.md",
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Policy/Tooling Usage/Godot/Software Development.md",
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Policy/Tooling Usage/Godot/Software Development.md"
+                "file": "Drawings/Tech Designs/Factory Layout Designer.md"
               }
             }
           },
@@ -147,10 +144,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bc604dc21a774c86",
+  "active": "0bd4b89ca9eb8d58",
   "lastOpenFiles": [
-    "Policy/Tooling Usage/Godot/Logging.md",
     "Policy/Tooling Usage/Godot/Software Development.md",
+    "Policy/Tooling Usage/Godot/Logging.md",
     "Drawings/Tech Designs/Factory Layout Designer.md",
     "Features/Market/Buy Food.md",
     "Design Decisions/Tooling/Factory Layout Designer.md",

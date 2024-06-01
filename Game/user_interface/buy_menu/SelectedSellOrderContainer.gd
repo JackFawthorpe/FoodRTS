@@ -2,7 +2,7 @@ class_name SelectedSellOrderContainer
 extends MarginContainer
 
 ## Signal that passes [sell_order_bought, quantity_purchased]
-signal sell_order_bought
+signal on_sell_order_bought(sell_order: SellOrder, quantity: int)
 
 var _current_sell_order
 
@@ -20,5 +20,5 @@ func close():
 ## Handles the confirmation of purchased
 func _on_buy():
 	print(_current_sell_order)
-	sell_order_bought.emit([_current_sell_order, 5])
+	on_sell_order_bought.emit(_current_sell_order, 5)
 	close()

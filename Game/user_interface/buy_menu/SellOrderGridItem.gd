@@ -1,7 +1,7 @@
 class_name SellOrderGridItem
 extends Control
 
-signal sell_order_clicked
+signal on_sell_order_clicked(sell_order: SellOrder)
 
 @onready var _icon: TextureRect = $Splitter/FoodIcon
 @onready var _food_name_label: Label = $Splitter/SellOrderDescription/FoodName
@@ -31,4 +31,4 @@ func load_sell_order():
 ## OnClickHandler
 func _on_gui_input(event):
 	if Utilities.is_left_mouse_click(event):
-		sell_order_clicked.emit(_sell_order)
+		on_sell_order_clicked.emit(_sell_order)

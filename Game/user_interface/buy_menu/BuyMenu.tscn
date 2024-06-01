@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://b5ii8vtafxq8e"]
+[gd_scene load_steps=5 format=3 uid="uid://bwaihbr2m0d1"]
 
 [ext_resource type="PackedScene" uid="uid://d105aweno3xc3" path="res://user_interface/common/GenericMenu.tscn" id="1_7rq62"]
 [ext_resource type="Script" path="res://user_interface/buy_menu/BuyMenu.gd" id="2_2cpvi"]
@@ -20,7 +20,13 @@ grow_horizontal = 2
 grow_vertical = 2
 split_offset = 740
 
-[node name="SellOrderGrid" type="GridContainer" parent="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter" index="0"]
+layout_mode = 2
+
+[node name="PlayerMoneyLabel" type="Label" parent="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter/VBoxContainer" index="0"]
+layout_mode = 2
+
+[node name="SellOrderGrid" type="GridContainer" parent="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter/VBoxContainer" index="1"]
 layout_mode = 2
 size_flags_horizontal = 3
 theme = ExtResource("3_13neh")
@@ -31,4 +37,4 @@ columns = 3
 [node name="SelectedSellOrderContainer" parent="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter" index="1" instance=ExtResource("4_027ab")]
 layout_mode = 2
 
-[connection signal="sell_order_bought" from="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter/SelectedSellOrderContainer" to="." method="_on_selected_sell_order_container_sell_order_bought"]
+[connection signal="on_sell_order_bought" from="Background/MenuContainer/HeaderDivision/Children/SelectedSellOrderSplitter/SelectedSellOrderContainer" to="." method="_on_sell_order_bought"]

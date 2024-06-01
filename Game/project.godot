@@ -30,6 +30,7 @@ config/icon="res://icon.svg"
 Logger="*res://addons/logger/logger.gd"
 Utilities="*res://autoloads/Utilities.gd"
 FoodResourceManager="*res://autoloads/FoodResourceManager.gd"
+EconomyManager="*res://autoloads/EconomyManager.gd"
 SupplierManager="*res://autoloads/SupplierManager.gd"
 
 [debug]
