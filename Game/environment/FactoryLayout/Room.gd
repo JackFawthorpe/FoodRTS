@@ -113,8 +113,7 @@ func _generate_walls(wall_visibility):
 			)
 		else:
 			wall_scale = Vector3(
-				# Covers the corners of the room
-				length + 2 * BOX_THICKNESS,
+				length,
 				height,
 				BOX_THICKNESS
 			)
